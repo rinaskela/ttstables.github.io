@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<!--
+В данном примере при щелчке по кнопке формы срабатывает событие onclick и идет
+вызов функции с именем isEmail(), которая проверяет, корректно ли введен адрес
+электронной почты. При этом справа от поля выводится сообщение об ошибке или
+наоборот, правильности ввода данных.
+-->
+<html>
+  <head>
+  </head>
+  <body>
+    <button onclick="myFunction()">Click me!</button>
+
+ 	  <script>
+      'use strict';
+	     function myFunction() {
+   	     var now = new Date();
+	        var date = prompt(now, '');
+          if (date == now.getFullYear()) {
+ 	          alert( '+' );
+            open('./bears.html')
+	         }
+	        }
+	  </script>
+
+
+  </body>
+</html>
